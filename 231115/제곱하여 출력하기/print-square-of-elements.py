@@ -1,6 +1,7 @@
 n=int(input())
 arr=list(map(int,input().split()))
 
-for i in arr:
-    result=i**2
-    print(result,end=' ')
+result=[i**2 for i in arr]
+
+for i in result:
+    print(i,end=' ')
