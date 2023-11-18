@@ -1,2 +1,2 @@
 n=float(input())
-print(f"{n:.2f}") # 문자열 포멧팅
+print("%.2f"%n) # 문자열 포멧팅
