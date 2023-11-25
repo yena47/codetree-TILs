@@ -5,8 +5,6 @@ while True:
     count+=1
     sum+=age
     if age%20>=10:
-        sum-=age
-        count-=1
         break
-mean=sum/count
+mean=(sum-age)/(count-1)
 print(f"{mean:.2f}")
