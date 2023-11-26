@@ -9,3 +9,5 @@ elif a<b:
         print(b)
     else:
         print(c)
+elif a==b:
+    print(c)
