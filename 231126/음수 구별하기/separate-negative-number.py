@@ -1,4 +1,4 @@
 n=int(input())
 print(n)
-if n%2==1:
+if n<0:
     print("minus")
