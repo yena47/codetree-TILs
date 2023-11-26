@@ -10,4 +10,7 @@ elif a<b:
     else:
         print(c)
 elif a==b:
-    print(c)
+    if a>c:
+        print(a)
+    else: 
+        print(c)
