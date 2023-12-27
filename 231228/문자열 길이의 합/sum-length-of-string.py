@@ -1,11 +1,11 @@
 n=int(input())
-arr=[]
-for i in range(n):
-    string=input()
-    arr.append(string)
+arr=[
+    input() for _ in range(n)
+]
 
 length=0
 count=0
+
 for i in arr:
     length += len(i)
     if i[0] == 'a':
