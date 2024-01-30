@@ -2,10 +2,9 @@ a,b=map(int,input().split())
 
 
 def fun_369(n):
-    if (n//10)==3 or (n//10)==6 or (n//10)==9 or (n%10)==3 or (n%10)==6 or (n%10)==9:
-        return True
-    else:
-        return False
+    for i in str(n):
+        if int(i)==3 or int(i)==6 or int(i)==9:
+            return True
 
 def is_magic_number(n):
     return n%3==0 or fun_369(n)
