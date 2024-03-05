@@ -9,4 +9,4 @@ for i in arr:
     cnt+=1
 
 avg=sum/cnt
-print(sum,avg)
+print(sum,round(avg,1))
