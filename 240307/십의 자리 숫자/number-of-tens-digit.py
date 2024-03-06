@@ -5,6 +5,8 @@ cnt_arr=[0]*10
 for elem in arr:
     if elem != 0:
         cnt_arr[elem//10]+=1
+    else:
+        break
 
 for i in range(1,10):
     print(f"{i} - {cnt_arr[i]}")
