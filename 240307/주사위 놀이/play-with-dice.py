@@ -1,29 +1,9 @@
 arr=list(map(int,input().split()))
+count_arr=[0]*7
 
-cnt1=0
-cnt2=0
-cnt3=0
-cnt4=0
-cnt5=0
-cnt6=0
-
+# 카운팅 배열을 통해 각각의 빈도 저장. 인덱스값 고려하여 일부러 7칸 배열 만든 것
 for elem in arr:
-    if elem==1:
-        cnt1+=1
-    elif elem==2:
-        cnt2+=1
-    elif elem==3:
-        cnt3+=1
-    elif elem==4:
-        cnt4+=1
-    elif elem==5:
-        cnt5+=1
-    else:
-        cnt6+=1
-    
-print(f"1 - {cnt1}")
-print(f"2 - {cnt2}")
-print(f"3 - {cnt3}")
-print(f"4 - {cnt4}")
-print(f"5 - {cnt5}")
-print(f"6 - {cnt6}")
+    count_arr[elem]+=1
+
+for i in range(1,7):
+    print(f"{i} - {count_arr[i]}")
