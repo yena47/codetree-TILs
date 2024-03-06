@@ -6,3 +6,5 @@ for elem in arr:
             print(elem+3,end=' ')
         else:
             print(elem//2,end=' ')
+    else:
+        break
