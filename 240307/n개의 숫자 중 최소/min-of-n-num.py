@@ -8,6 +8,9 @@ cnt_min=0
 for elem in arr:
     if elem<min_val:
         min_val=elem
+        
+for elem in arr:
+    if elem == min_val:
         cnt_min+=1
 
 print(min_val,cnt_min)
