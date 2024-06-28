@@ -3,8 +3,9 @@ count_arr=[0]*b
 
 # 개수 세기
 while a>1:
-    a=a//b
     count_arr[a%b]+=1
+    a=a//b
+    
     
 
 # 출력하기
