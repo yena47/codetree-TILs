@@ -13,8 +13,8 @@ for i in range(q):
             if word[i]==b:
                 print(i+1)
                 break
-            elif b not in word:
-                print(0)
+        if b not in word:
+            print(0)
                 
     
     else:
