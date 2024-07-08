@@ -5,7 +5,8 @@ for i in range(q):
     question = list(map(int,input().split()))
 
     if question[0]==1:
-        print(question[1])
+        a=question[1]
+        print(word[a-1])
 
     elif question[0]==2:
         b=question[1]
