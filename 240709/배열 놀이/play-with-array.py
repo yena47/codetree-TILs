@@ -17,10 +17,9 @@ for i in range(q):
         if b not in word:
             print(0)
                 
-    
     elif Q[0]==3:
         s=Q[1]
         e=Q[2]
 
         for j in range(s,e+1):
-            print(word[j-1], end=' ')
+            print(word[j-1],end=' ')
