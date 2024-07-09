@@ -23,5 +23,4 @@ for i in range(q):
         e=Q[2]
 
         for i in range(s,e+1):
-            print(word[i-1],end=' ')
-            print()
+            print(word[i-1], end=' ')
