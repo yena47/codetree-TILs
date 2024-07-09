@@ -18,8 +18,10 @@ for i in range(q):
             print(0)
                 
     
-    else:
+    elif Q[0]==3:
         s=Q[1]
         e=Q[2]
+
         for i in range(s,e+1):
             print(word[i-1],end=' ')
+            print()
