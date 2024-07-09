@@ -1,7 +1,7 @@
 word=list(map(int,input().split()))
 
 max_value=0
-min_value=0
+min_value=word[0]
 for i in word:
     if i==999 or i==-999:
             break
